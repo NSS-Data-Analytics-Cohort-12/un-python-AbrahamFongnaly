@@ -4,6 +4,8 @@
 
 This project involves analyzing two datasets: Gross Domestic Product (GDP) per capita and Internet usage. The analysis will be conducted using Python and Jupyter Notebook, focusing on data cleaning, exploration, and visualization.
 
+***Technology Used***: Jupyter Notebook (Python)
+
 **Getting Started**:
 
 1. Create a Data Folder
