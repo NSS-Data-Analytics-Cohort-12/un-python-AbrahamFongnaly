@@ -63,36 +63,36 @@ This project involves analyzing two datasets: Gross Domestic Product (GDP) per c
 
 1. Load the Data
    
-Read the internet usage dataset into a DataFrame named internet_df. Check and correct any errors during import, then review the top and bottom rows and data types.
+	Read the internet usage dataset into a DataFrame named internet_df. Check and correct any errors during import, then review the top and bottom rows and data types.
 
 2. Data Cleaning
    
-Drop the "Value Footnotes" column and rename the remaining columns to 'Country', 'Year', and 'Internet_Users_Pct'.
+	Drop the "Value Footnotes" column and rename the remaining columns to 'Country', 'Year', and 'Internet_Users_Pct'.
 
 3. Data Analysis
 
- Examine the number of observations per year.
+ 	Examine the number of observations per year.
  
- Identify the first year with a non-zero internet users percentage.
+ 	Identify the first year with a non-zero internet users percentage.
  
 4. Visualizations for Internet Usage
 
- Compare the distribution of internet users' percentage for the years 2000 and 2014.
+ 	Compare the distribution of internet users' percentage for the years 2000 and 2014.
 
- Determine how many countries had less than 5% internet usage in 2014.
+	 Determine how many countries had less than 5% internet usage in 2014.
  
 **Merging and Further Analysis**
 1. Merge DataFrames
 
- Merge gdp_df and internet_df into a new DataFrame called gdp_and_internet_use. Ensure that the merge keeps all rows from both DataFrames.
+ 	Merge gdp_df and internet_df into a new DataFrame called gdp_and_internet_use. Ensure that the merge keeps all rows from both DataFrames.
 
 2. FacetGrid Visualization
 
- Find the top three countries with the highest internet users' percentage in 2014. Use Seaborn's FacetGrid to compare GDP changes over time for these countries.
+	 Find the top three countries with the highest internet users' percentage in 2014. Use Seaborn's FacetGrid to compare GDP changes over time for these countries.
 
 3. 2014 Data Analysis
 
- Subset gdp_and_internet_use for the year 2014 and save it as gdp_and_internet_use_2014. Create a plot comparing Internet Users Percentage and GDP per Capita for 2014 and investigate any unusual points.
+ 	Subset gdp_and_internet_use for the year 2014 and save it as gdp_and_internet_use_2014. Create a plot comparing Internet Users Percentage and GDP per Capita for 2014 and investigate any unusual points.
 
 Feel free to reach out with any questions. Happy analyzing!
 
